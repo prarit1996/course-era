@@ -1,0 +1,116 @@
+* {
+	box-sizing: border-box;
+}
+h1{
+		text-align: center;
+	}
+div  span{
+		position: relative;
+		top: 0px;
+		width: 20%;
+		text-align: center;
+		float: right;
+		border: 1px solid black;
+	}
+	#spn1{
+		background-color: pink;
+		font-weight: bold;
+		font-family: "Times New Roman", Times, serif;
+
+	}
+	#spn2{
+		background-color: maroon;
+		color: white;
+		font-weight: bold;
+		font-family: "Times New Roman", Times, serif;
+	}
+	#spn3{
+		background-color: yellow;
+		font-weight: bold;
+		font-family: "Times New Roman", Times, serif;
+	}
+	div p {
+		clear: both;
+		padding: 5px;
+		font-weight: bold;
+		font-family: "Times New Roman", Times, serif;
+	}
+@media (min-width: 992px) { 
+	 #s1{
+		width: 30%;
+		border: 2px solid black;
+		float: left;
+		margin: 5px;
+		position: relative;
+		background-color: grey;
+	}
+	#s2 {
+		width: 30%;
+		border: 2px solid black;
+		float: left;
+		margin: 5px;
+		position: relative;
+		background-color: grey;
+	}
+	#s3 {
+		width: 30%;
+		border: 2px solid black;
+		float: left;
+		margin: 5px;
+		position: relative;
+		background-color: grey;
+	}
+	div p{
+
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	
+	#s1{
+		width: 45%;
+		border: 2px solid black;
+		float: left;
+		margin: 5px;
+		background-color: grey;
+	}
+	#s2 {
+		width: 45%;
+		border: 2px solid black;
+		float: left;
+		margin: 5px;
+		background-color: grey;
+	}
+	#s3 {
+		width: 91%;
+		border: 2px solid black;
+		float: left;
+		margin:10px;
+		background-color: grey;
+	}
+}
+
+@media (max-width: 766px) {
+	
+	#s1{
+		width: 94%;
+		border: 2px solid black;
+		margin:10px;
+		background-color: grey;
+
+	}
+	#s2 {
+		width: 94%;
+		border: 2px solid black;
+		margin:10px;
+		background-color: grey;
+	}
+	#s3 {
+		width: 94%;
+		border: 2px solid black;
+		margin:10px;
+		background-color: grey;
+	}
+
+}
+
